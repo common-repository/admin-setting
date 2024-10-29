@@ -1,0 +1,45 @@
+.admin-main {
+    float: left;
+    width: 30%;
+    margin-right: 2%;
+    padding: 0% 2% 2% 2%;
+    background: #fff;
+    min-height: 500px;
+}
+.status,
+h2 {
+    text-align: center;
+}
+.status {
+    color: red;
+    font-size: 16px;
+}
+.control-button {
+    margin-bottom: 10px;
+}
+.control-button .button-primary {
+    float: right;
+}
+.admin-main table tr th:last-child {
+    text-align: center;
+}
+.admin-main table tr th .wp-menu-image img {
+    width: 20px;
+}
+.admin-main table tr th:last-child input {
+    display: inline-block;
+}
+.admin-login {
+    float: left;
+    width: 58%;
+    background: #fff;
+    padding: 0% 2% 2% 2%;
+}
+.login-content p label {
+    width: 130px;
+    float: left;
+}
+.login-content p textarea,
+.login-content p input {
+    width: 500px;
+}
